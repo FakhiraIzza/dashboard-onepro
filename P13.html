@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>P6 - Penyusunan Kontrak | OnePro</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+
+    body {
+      background-color: #f4f6f9;
+      padding: 40px 20px;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #1e293b;
+      font-size: 28px;
+    }
+
+    .description {
+      text-align: center;
+      max-width: 800px;
+      margin: 0 auto 40px auto;
+      font-size: 16px;
+      color: #374151;
+      line-height: 1.6;
+    }
+
+    .back-link {
+      display: block;
+      margin-bottom: 20px;
+      color: #0ea5e9;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s;
+    }
+
+    .back-link:hover {
+      color: #0284c7;
+    }
+
+    .card-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 24px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .card {
+      background-color: #fff;
+      border-radius: 16px;
+      padding: 24px;
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+      transition: 0.3s ease;
+      cursor: pointer;
+      text-decoration: none;
+      color: inherit;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      border: 2px solid transparent;
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+      border-color: #0ea5e9;
+    }
+
+    .card i {
+      font-size: 30px;
+      color: #0ea5e9;
+      margin-bottom: 16px;
+    }
+
+    .card h3 {
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+
+    .card p {
+      font-size: 14px;
+      color: #4b5563;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+
+<body>
+  <a href="index.html" class="back-link"><i class="fas fa-arrow-left"></i> Kembali ke Beranda</a>
+  <h1>P6 - Penyusunan Kontrak</h1>
+  <p class="description">Tahapan pembuatan perjanjian barang/jasa antara Pertamina dengan pelaksana kontrak yang dituangkan dalam kesepakatan tertulis dan bersifat mengikat.</p>
+
+  <div class="card-container">
+    <a href="#" class="card">
+      <i class="fas fa-file-contract"></i>
+      <h3>Penerbitan PO/RO (iPRO)</h3>
+      <p>Proses pembuatan dan penerbitan Purchase Order atau Release Order melalui sistem iPRO.</p>
+    </a>
+
+    <a href="#" class="card">
+      <i class="fas fa-file-signature"></i>
+      <h3>Penerbitan OA (iPRO)</h3>
+      <p>Penerbitan Order Agreement sebagai bagian dari dokumen kontraktual dalam pengadaan.</p>
+    </a>
+
+    <a href="#" class="card">
+      <i class="fas fa-lightbulb"></i>
+      <h3>SMART GEP</h3>
+      <p>Modul sistem yang mendukung evaluasi otomatis dan penyusunan kontrak secara efisien.</p>
+    </a>
+
+    <a href="#" class="card">
+      <i class="fas fa-file-alt"></i>
+      <h3>Digitalisasi Kontrak</h3>
+      <p>Penyimpanan dan pengelolaan dokumen kontrak dalam bentuk digital yang terintegrasi.</p>
+    </a>
+  </div>
+</body>
+
+</html>
